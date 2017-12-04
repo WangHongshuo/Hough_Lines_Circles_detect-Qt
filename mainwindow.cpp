@@ -24,7 +24,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->blur->hide();
-    //设置窗体固定大小
+    
     this->setFixedSize(this->geometry().width(),geometry().height());
     ui->lines_color_green->setChecked(true);
     ui->lines->setChecked(true);

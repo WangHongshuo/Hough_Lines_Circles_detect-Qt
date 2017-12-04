@@ -22,8 +22,8 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui \
     dialog.ui
 
-INCLUDEPATH += D:/opencv_use/include\
-               D:/opencv_use/include/opencv\
-               D:/opencv_use/include/opencv2
-LIBS += -L D:/opencv_use/lib/libopencv_*.a
+INCLUDEPATH += D:/opencv3.3.1/opencv_use/include\
+               D:/opencv3.3.1/opencv_use/include/opencv\
+               D:/opencv3.3.1/opencv_use/include/opencv2
+LIBS += -L D:/opencv3.3.1/opencv_use/lib/libopencv_*.a
 
